@@ -9,20 +9,46 @@
     <body>
         <div>
             <div class="header">
-                <img
-                    src="assests/images/logo.png"
-                    alt="logo"
-                    style="height: 150px; width: 200px"
-                />
-
-                <a href="login.html" target="_blank">Login</a>
+                <a href="index.html">
+                    <img
+                        src="assests/images/logo.png"
+                        alt="logo"
+                        style="height: 150px; width: 200px"
+                    />
+                </a>
+                <a href="login.html">Login</a>
             </div>
 
             <div class="content">
                 <img
                     src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
                 />
-                <div><a href="payment.html">Book Now</a></div>
+                <div>
+                    <form action="payment.html">
+                        <label for="adults">Adults: </label>
+                        <input
+                            type="number"
+                            name="adults"
+                            id="adults"
+                            min="1"
+                            required
+                        />
+                        <br />
+                        <label for="name">Name: </label>
+                        <input type="test" name="name" id="name" required />
+                        <br />
+                        <label for="fromDate">From Date: </label>
+                        <input type="date" name="fromDate" id="fromDate" />
+                        <br />
+                        <label for="toDate">To Date: </label>
+                        <input type="date" name="toDate" id="toDate" />
+                        <br />
+                        <label for="total">Total: </label>
+                        <input type="text" name="price" id="total" disabled />
+                        <br />
+                        <input type="submit" value="Book Now" />
+                    </form>
+                </div>
 
                 <h2>Radisson Blu Hotel</h2>
                 <p>RATING</p>
@@ -46,7 +72,7 @@
 
             <div class="footer">
                 <div>
-                    <a href="contact.html" target="_blank">Contact Us</a>
+                    <a href="contact.html">Contact Us</a>
                 </div>
                 <div>
                     <a href="https://www.facebook.com/" target="_blank">
