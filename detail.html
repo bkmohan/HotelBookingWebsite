@@ -4,24 +4,27 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/detail.css" />
         <title>Detail</title>
     </head>
     <body>
-        <div>
-            <div class="header">
+        <div class="container">
+            <header>
                 <a href="index.html">
                     <img
                         src="assests/images/logo.png"
                         alt="logo"
-                        style="height: 150px; width: 200px"
+                        style="height: 60px; width: 60px"
                     />
                 </a>
                 <a href="login.html">Login</a>
-            </div>
+            </header>
 
             <div class="content">
                 <img
                     src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                    height="500px"
+                    width="500px"
                 />
                 <div>
                     <form action="payment.html">
@@ -38,10 +41,15 @@
                         <input type="test" name="name" id="name" required />
                         <br />
                         <label for="fromDate">From Date: </label>
-                        <input type="date" name="fromDate" id="fromDate" />
+                        <input
+                            type="date"
+                            name="fromDate"
+                            id="fromDate"
+                            required
+                        />
                         <br />
                         <label for="toDate">To Date: </label>
-                        <input type="date" name="toDate" id="toDate" />
+                        <input type="date" name="toDate" id="toDate" required />
                         <br />
                         <label for="total">Total: </label>
                         <input type="text" name="price" id="total" disabled />
@@ -70,7 +78,7 @@
                 </p>
             </div>
 
-            <div class="footer">
+            <footer>
                 <div>
                     <a href="contact.html">Contact Us</a>
                 </div>
@@ -95,7 +103,7 @@
                     </a>
                 </div>
                 <div>© 2020 ROOM SEARCH PVT LTD</div>
-            </div>
+            </footer>
         </div>
     </body>
 </html>
