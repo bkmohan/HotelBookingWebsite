@@ -5,6 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="styles/list.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+            rel="stylesheet"
+        />
         <title>List</title>
     </head>
     <body>
@@ -17,19 +21,21 @@
                         style="height: 60px; width: 60px"
                     />
                 </a>
-                <a href="login.html">Login</a>
+                <a class="plain-link" href="login.html">Login</a>
             </header>
 
             <div class="content">
-                <div>
-                    <ul>
-                        <li><a href="#list-view">List View</a></li>
-                        <li><a href="#map-view">Map View</a></li>
-                    </ul>
+                <div class="viewIndex">
+                    <a class="plain-link" style="margin: 10px" href="#list-view"
+                        ><strong>List View</strong></a
+                    >
+                    <a class="plain-link" style="margin: 10px" href="#map-view"
+                        ><strong>Map View</strong></a
+                    >
                 </div>
                 <div id="list-view">
                     <div class="listItem">
-                        <a href="detail.html">
+                        <a href="detail.html" class="plain-link">
                             <img
                                 src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
                                 height="250px"
@@ -71,7 +77,10 @@
 
             <footer>
                 <div>
-                    <a href="contact.html">Contact Us</a>
+                    <a class="plain-link" href="contact.html">Contact Us</a>
+                </div>
+                <div style="font-size: 10px; margin-top: auto">
+                    © 2020 ROOM SEARCH PVT LTD
                 </div>
                 <div>
                     <a href="https://www.facebook.com/" target="_blank">
@@ -93,7 +102,6 @@
                         />
                     </a>
                 </div>
-                <div>© 2020 ROOM SEARCH PVT LTD</div>
             </footer>
         </div>
     </body>

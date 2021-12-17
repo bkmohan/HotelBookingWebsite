@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="stylesheet" href="styles/index.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+            rel="stylesheet"
+        />
         <title>Index</title>
     </head>
     <body>
@@ -17,12 +21,12 @@
                     style="height: 60px; width: 60px"
                 />
 
-                <a href="login.html">Login</a>
+                <a class="plain-link" href="login.html">Login</a>
             </header>
 
             <div class="content">
                 <div class="searchbar">
-                    <input type="test" placeholder="City" />
+                    <input class="cityInput" type="test" placeholder="City" />
                 </div>
                 <div id="cityContainer">
                     <a href="list.html">
@@ -44,14 +48,20 @@
                         src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
                     />
                 </div>
-                <div>
-                    <a href="index.html">View more >></a>
+                <div
+                    style="display: flex; margin: 20px; justify-content: center"
+                >
+                    <a class="plain-link" href="index.html">View more >></a>
                 </div>
             </div>
 
             <footer>
                 <div>
-                    <a href="contact.html">Contact Us</a>
+                    <a class="plain-link" href="contact.html">Contact Us</a>
+                </div>
+
+                <div style="font-size: 10px; margin-top: auto">
+                    © 2020 ROOM SEARCH PVT LTD
                 </div>
                 <div>
                     <a href="https://www.facebook.com/" target="_blank">
@@ -73,7 +83,6 @@
                         />
                     </a>
                 </div>
-                <div>© 2020 ROOM SEARCH PVT LTD</div>
             </footer>
         </div>
     </body>
