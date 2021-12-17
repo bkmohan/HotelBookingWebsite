@@ -2,9 +2,36 @@ html,
 body {
     margin: 0;
     height: 100%;
+    background-color: #e0e0e0;
 }
 
 .container {
     margin: 0;
     height: 100%;
+}
+
+header {
+    background-color: rosybrown;
+}
+
+footer {
+    background-color: rosybrown;
+}
+
+.details {
+    background-color: rgb(132, 136, 139);
+    width: 50%;
+    height: 20%;
+    margin: 2% auto 2% auto;
+}
+
+.customerDetails {
+    margin: 2%;
+}
+
+.tariffDetails {
+    margin: 2%;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 1% 2% 1% 2%;
 }

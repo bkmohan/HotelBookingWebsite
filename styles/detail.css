@@ -2,9 +2,30 @@ html,
 body {
     margin: 0;
     height: 100%;
+    background-color: #e0e0e0;
 }
 
 .container {
     margin: 0;
     height: 100%;
+}
+
+header {
+    background-color: rosybrown;
+}
+
+footer {
+    background-color: rosybrown;
+}
+
+.hotelImage {
+    margin: 2% 4% 0 4%;
+}
+
+form {
+    margin: 0 4% 1% 4%;
+}
+
+.details {
+    margin: 1% 4% 2% 4%;
 }
