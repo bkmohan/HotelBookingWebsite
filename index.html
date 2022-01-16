@@ -18,35 +18,65 @@
                 <img
                     src="assests/images/logo.png"
                     alt="logo"
-                    style="height: 60px; width: 60px"
+                    style="height: 60px; width: 60px; margin: 1%"
                 />
 
-                <a class="plain-link" href="login.html">Login</a>
+                <a class="plain-link" style="margin: 2%" href="login.html"
+                    >Login</a
+                >
             </header>
 
             <div class="content">
                 <div class="searchbar">
                     <input class="cityInput" type="test" placeholder="City" />
                 </div>
-                <div id="cityContainer">
-                    <a href="list.html">
-                        <img
-                            style="height: 150px; width: 150px"
-                            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
-                        />
-                    </a>
-                    <img
-                        style="height: 150px; width: 150px"
-                        src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
-                    />
-                    <img
-                        style="height: 150px; width: 150px"
-                        src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
-                    />
-                    <img
-                        style="height: 150px; width: 150px"
-                        src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
-                    />
+                <div id="cityList">
+                    <div class="cityContainer">
+                        <a href="list.html">
+                            <div class="cityItem">
+                                <img
+                                    style="height: 150px; width: 150px"
+                                    src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+                                />
+                            </div>
+                            <div class="cityOverlay">
+                                <p>Delhi</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cityContainer">
+                        <div class="cityItem">
+                            <img
+                                style="height: 150px; width: 150px"
+                                src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
+                            />
+                        </div>
+                        <div class="cityOverlay">
+                            <p>Goa</p>
+                        </div>
+                    </div>
+                    <div class="cityContainer">
+                        <div class="cityItem">
+                            <img
+                                style="height: 150px; width: 150px"
+                                src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
+                            />
+                        </div>
+                        <div class="cityOverlay">
+                            <p>Hyderabad</p>
+                        </div>
+                    </div>
+                    <div class="cityContainer">
+                        <div class="cityItem">
+                            <img
+                                style="height: 150px; width: 150px"
+                                src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+                            />
+                        </div>
+                        <div class="cityOverlay">
+                            <p>Kolkata</p>
+                        </div>
+                    </div>
                 </div>
                 <div
                     style="display: flex; margin: 20px; justify-content: center"
@@ -57,13 +87,16 @@
 
             <footer>
                 <div>
-                    <a class="plain-link" href="contact.html">Contact Us</a>
+                    <a
+                        class="plain-link"
+                        href="contact.html"
+                        style="margin-left: 2%; white-space: nowrap"
+                        >Contact Us</a
+                    >
                 </div>
 
-                <div style="font-size: 10px; margin-top: auto">
-                    © 2020 ROOM SEARCH PVT LTD
-                </div>
-                <div>
+                <div style="font-size: 10px">© 2020 ROOM SEARCH PVT LTD</div>
+                <div style="margin: 2%">
                     <a href="https://www.facebook.com/" target="_blank">
                         <img
                             style="height: 20px; width: 22px"

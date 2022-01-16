@@ -5,7 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="styles/detail.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+            rel="stylesheet"
+        />
         <title>Detail</title>
     </head>
     <body>
@@ -15,20 +18,22 @@
                     <img
                         src="assests/images/logo.png"
                         alt="logo"
-                        style="height: 60px; width: 60px"
+                        style="height: 60px; width: 60px; margin: 1%"
                     />
                 </a>
-                <a href="login.html">Login</a>
+                <a class="plain-link" style="margin: 2%" href="login.html"
+                    >Login</a
+                >
             </header>
 
             <div class="content">
-                <img
-                    class="hotelImage"
-                    src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-                    height="500px"
-                    width="500px"
-                />
-                <div>
+                <div class="booking">
+                    <img
+                        class="hotelImage"
+                        src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                        height="500px"
+                        width="500px"
+                    />
                     <form action="payment.html">
                         <label for="adults">Adults: </label>
                         <input
@@ -59,7 +64,6 @@
                         <input type="submit" value="Book Now" />
                     </form>
                 </div>
-
                 <div class="details">
                     <h2>Radisson Blu Hotel</h2>
                     <p>RATING</p>
@@ -85,9 +89,16 @@
 
             <footer>
                 <div>
-                    <a href="contact.html">Contact Us</a>
+                    <a
+                        class="plain-link"
+                        href="contact.html"
+                        style="margin-left: 2%; white-space: nowrap"
+                        >Contact Us</a
+                    >
                 </div>
-                <div>
+
+                <div style="font-size: 10px">© 2020 ROOM SEARCH PVT LTD</div>
+                <div style="margin: 2%">
                     <a href="https://www.facebook.com/" target="_blank">
                         <img
                             style="height: 20px; width: 22px"
@@ -107,7 +118,6 @@
                         />
                     </a>
                 </div>
-                <div>© 2020 ROOM SEARCH PVT LTD</div>
             </footer>
         </div>
     </body>
